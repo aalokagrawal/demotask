@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.Top-Navbar {
+  width: 100vw;
+  display: flex;
+  background-color: rgb(235, 235, 235);
+  border-bottom: 2px solid rgb(235, 235, 235);
+}
+.Top-Navbaritem {
+  padding: 3.5% 20px;
+  font-family: cursive;
+  font-size: large;
+}
+.item3 i:not(:first-child) {
+  margin-left: 20px;
+}
+
+.item2 {
+  margin: 0 auto;
+}
+.bottom-Navbar {
+  background-color: rgb(235, 235, 235);
+  border-top: 2px solid rgb(235, 235, 235);
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0%;
+}
+.bottom-Navbaritem {
+  padding: 3.5% 20px;
+  font-size: large;
+}
+.text {
+  font-size: 2rem;
+  height: 90vh;
+  color: red;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
